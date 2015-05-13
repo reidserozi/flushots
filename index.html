@@ -14,6 +14,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      
     <style>
       body { padding-bottom: 75px; }
       .google-map-canvas,
@@ -23,6 +24,7 @@
       .dropdown-menu > li > a { color:#aaa; }
       .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {background-color:#fff; color:#333; text-decoration:none;}
     </style>
+      <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="js/ltIE9.min.js"></script>
@@ -31,7 +33,7 @@
   <body>
     <div id=map style="position:absolute; top:0; bottom:50px; left:0; right:0;"></div>
 
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom nav-color" role="navigation">
       <div class="navbar-header">
         <button id="navbar-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -39,7 +41,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a id="nav-brand" class="navbar-brand" data-toggle="modal" href="#modal-gafs">{{site.title}}</a>
+        <a id="nav-brand" class="navbar-brand white" data-toggle="modal" href="#modal-gafs">{{site.title}}</a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
@@ -66,7 +68,7 @@
           </div>
           <button id="nav-go" class="btn btn-default btn-sm" type="button">Go</button>
         </form>
-        <a id="nav-agency" class="navbar-text pull-right" data-toggle="modal" href="#modal-cdph"><img src="{{site.logo}}"></a>
+        <a id="nav-agency" class="navbar-text pull-right" data-toggle="modal" href="#modal-cdph"><img src="{{site.logo}}" style="width:128px; height:128px;"></a>
       </div>
     </nav>
 
