@@ -7,7 +7,7 @@
    */
   var Default = {
     // City
-    city:'Raleigh',
+    city:'Puerto Rico',
     // DOM ID of where the Google Map is to be rendered
     domid:'map',
     // Google maps API key
