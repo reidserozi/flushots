@@ -6,8 +6,8 @@ title: "Puerto Rico: Get A Flu Shot"
 logo: "http://code4puertorico.org/static/images/logo.svg"
 locality: "Puerto Rico"
 flu_info_link: http://www.flu.nc.gov/
-start_latitude: -32.5889
-start_longitude: 66.1778
+start_latitude: 18.219592
+start_longitude: -66.513350
 state: Puerto Rico
 api_endpoint: http://brigades.opendatanetwork.com/resource/58zj-bvwz.json
 socrata_app_token: HCvAA8iIMxefx6BzUAEQN0wqE
