@@ -84,72 +84,72 @@ var TkMap = (function($){
 			window.scrollBy(0,(touchstart - touchend ));
 		};
 		/** Choose pre-built map styles. */
-//		var setCustomStyles = function()
-//		{
-//			var StylesArray = Styles.split(' ');
-//			for (var i in StylesArray)
-//			{
-//				if(StylesArray[i] === 'satellite')
-//				{
-//					MapOptions.mapTypeId = google.maps.MapTypeId.SATELLITE;
-//				}
-//				else
-//				{
-//					if (StylesArray[i] === 'hybrid')
-//					{
-//						MapOptions.mapTypeId = google.maps.MapTypeId.HYBRID;
-//					}
-//					else if (StylesArray[i] === 'road')
-//					{
-//						MapOptions.mapTypeId = google.maps.MapTypeId.ROADMAP;
-//					}
-//					else if (StylesArray[i] === 'terrain')
-//					{
-//						MapOptions.mapTypeId = google.maps.MapTypeId.TERRAIN;
-//					}
-//					else if (StylesArray[i] === 'minlabels')
-//					{
-//						MapOptions.styles.push
-//						(
-//							{
-//								featureType : "all",
-//								elementType : "labels",
-//								stylers: [{ visibility: "off" }]
-//							},
-//							{
-//								featureType : "administrative",
-//								elementType : "labels",
-//								stylers: [{ visibility: "on" }]
-//							},
-//							{
-//								featureType : "road",
-//								elementType : "labels",
-//								stylers: [{ visibility: "on" }]
-//							}
-//						);
-//					}
-//					else if (StylesArray[i] === 'grey')
-//					{
-//						MapOptions.backgroundColor = '#C5C5C5';
-//						MapOptions.styles.push
-//						(
-//							{
-//								stylers: [{ saturation: -87 }]
-//							},
-//							{
-//								featureType: "road.arterial",
-//								elementType: "geometry",
-//								stylers: [{ lightness: 85 }]
-//							},
-//							{
-//								featureType: "water",
-//								stylers: [{ lightness: -20 }]
-//							}
-//						);
-//					}
-//				}
-//			}
-//		};
+		var setCustomStyles = function()
+		{
+			var StylesArray = Styles.split(' ');
+			for (var i in StylesArray)
+			{
+				if(StylesArray[i] === 'satellite')
+				{
+					MapOptions.mapTypeId = google.maps.MapTypeId.SATELLITE;
+				}
+				else
+				{
+					if (StylesArray[i] === 'hybrid')
+					{
+						MapOptions.mapTypeId = google.maps.MapTypeId.HYBRID;
+					}
+					else if (StylesArray[i] === 'road')
+					{
+						MapOptions.mapTypeId = google.maps.MapTypeId.ROADMAP;
+					}
+					else if (StylesArray[i] === 'terrain')
+					{
+						MapOptions.mapTypeId = google.maps.MapTypeId.TERRAIN;
+					}
+					else if (StylesArray[i] === 'minlabels')
+					{
+						MapOptions.styles.push
+						(
+							{
+								featureType : "all",
+								elementType : "labels",
+								stylers: [{ visibility: "off" }]
+							},
+							{
+								featureType : "administrative",
+								elementType : "labels",
+								stylers: [{ visibility: "on" }]
+							},
+							{
+								featureType : "road",
+								elementType : "labels",
+								stylers: [{ visibility: "on" }]
+							}
+						);
+					}
+					else if (StylesArray[i] === 'grey')
+					{
+						MapOptions.backgroundColor = '#C5C5C5';
+						MapOptions.styles.push
+						(
+							{
+								stylers: [{ saturation: -87 }]
+							},
+							{
+								featureType: "road.arterial",
+								elementType: "geometry",
+								stylers: [{ lightness: 85 }]
+							},
+							{
+								featureType: "water",
+								stylers: [{ lightness: -20 }]
+							}
+						);
+					}
+				}
+			}
+		};
 		/** Set map zoom level based on the map's DOM object width */
 		var setResponsive = function()
 		{
