@@ -1,6 +1,6 @@
 .nav-color {
     background-color: #3079ed;
 }
-p, a, li {
-    color: #fff;
+p, a, li, span {
+    color: white;
 }
