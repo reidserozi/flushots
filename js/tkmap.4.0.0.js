@@ -128,25 +128,25 @@ var TkMap = (function($){
 							}
 						);
 					}
-					else if (StylesArray[i] === 'grey')
-					{
-						MapOptions.backgroundColor = '#C5C5C5';
-						MapOptions.styles.push
-						(
-							{
-								stylers: [{ saturation: -87 }]
-							},
-							{
-								featureType: "road.arterial",
-								elementType: "geometry",
-								stylers: [{ lightness: 85 }]
-							},
-							{
-								featureType: "water",
-								stylers: [{ lightness: -20 }]
-							}
-						);
-					}
+//					else if (StylesArray[i] === 'grey')
+//					{
+//						MapOptions.backgroundColor = '#C5C5C5';
+//						MapOptions.styles.push
+//						(
+//							{
+//								stylers: [{ saturation: -87 }]
+//							},
+//							{
+//								featureType: "road.arterial",
+//								elementType: "geometry",
+//								stylers: [{ lightness: 85 }]
+//							},
+//							{
+//								featureType: "water",
+//								stylers: [{ lightness: -20 }]
+//							}
+//						);
+//					}
 				}
 			}
 		};
