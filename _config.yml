@@ -3,7 +3,7 @@ exclude: [Gemfile, Gemfile.lock, .ruby-*, public]
 
 gmaps_api_key: AIzaSyCZyT6gk-tkkZwmlg9zovl2oIol0v1ZXK8
 title: "Puerto Rico: Get A Flu Shot"
-logo: "http://code4puertorico.org/static/images/logo.png"
+logo: "img/code4pr-logo.png"
 locality: "Puerto Rico"
 flu_info_link: http://www.flu.nc.gov/
 start_latitude: 18.219592
