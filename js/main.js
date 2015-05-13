@@ -24,7 +24,7 @@
       maxWidth: 0,
       pixelOffset: new google.maps.Size(-121, 0),
       zIndex: null,
-      boxStyle: {
+boxStyle: {
         background: "url('img/tipbox.gif') no-repeat",
         opacity: 0.92,
         width: "240px"
@@ -45,7 +45,7 @@
     // Defined style types passed to TkMap
     styles:'grey minlabels',
     // Initial zoom level for the Google map
-    zoom:5,
+    zoom:10,
     // Zoom for finding address
     zoomaddress:14
   };
